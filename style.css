@@ -1,0 +1,54 @@
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 500px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+a:link {
+	color: #E5007D;
+}
+a:hover{
+color: grey;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-image: url("computer_bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    background-color: #2E2E2E;
+}
+#bio{
+	border-radius:50px;
+	float: left;
+	padding: 10px;
+}
+
+#summary{
+	background-color: rgba(255,255,255,0.8);
+	border-radius:25px;
+	margin: 10px;
+	padding: 10px;
+}
